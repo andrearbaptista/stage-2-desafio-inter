@@ -8,6 +8,15 @@ justify-content: center;
 align-items: flex-start;
 gap: 607px;}
 
+.page{
+  width:1092px;
+  margin: 0 auto;
+  padding-top: 71px;
+
+  flex-direction: column;
+  gap: 100px;
+
+}
 
 
 h1{font-family: 'JetBrains Mono', monospace;}
@@ -36,8 +45,8 @@ nav {
 
   ul{
     display: flex;
-align-items: flex-start;
-gap: 64px;
+    align-items: flex-start;
+    gap: 64px;
   
 }
 ul li
@@ -64,17 +73,20 @@ ul li a
 
 footer{
   font-family: 'JetBrains Mono', monospace;
-  width: 568px;
-  height: 55px;
-  top: 642;
-  bottom: 23;
-  color: #fff;}
-  
+  margin: 120px auto 0;
+  color: #fff;
+  text-align: center}
+footer a{
+  text-decoration: none;
+  color:#fff;
+}
+
 footer a:hover{
   cursor:pointer;}
 
 #line {
-  width: 568.001px;
+  width: 568px;
+  margin: 0 auto 27px;
   height: 1px;
   background: #00BFA6;}
 
@@ -88,10 +100,11 @@ main{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: 101px;
 
 }
 #locker {
-  position:relative;
+  position: fixed;
   left: 20px;
   bottom: 20px;
  }
